@@ -1,3 +1,131 @@
-body {
-  background: papayawhip;
+/*   {
+  border: 1px solid black;
 }
+ */     
+      
+      /* container */
+      .container  {
+        display: flex;
+        min-height: 100vh;
+        flex-direction: column;
+        flex-wrap: wrap;
+       
+        justify-content: space-between;
+        }
+
+        .two-columns    {
+        display: flex;
+        min-height: 80vh;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        border: none;
+        }    
+
+        /* a */
+    .a   {
+      width: 100%;
+      margin: 20px;
+      flex-grow: 2;
+      min-height: 20vh;
+      border: 1px solid black;
+      
+    }
+       /* b */
+    .b  {
+      width: 100%;
+      margin: 20px;
+      flex-grow: 2;
+      max-height: 50vh;
+      border: 1px solid black;
+    }
+    
+        /* c */
+    .c  {
+      width: 15%;
+      margin: 20px;
+      flex-grow: 1;
+      border: 1px solid black;
+      
+    }
+    
+        /* d */
+    .d  {
+      width: 15%;
+      margin: 20px;
+      flex-grow: 1;
+      border: 1px solid black;
+      
+    }
+    
+        /* e */
+    .e  {
+      width: 15%;
+      margin: 20px;
+      flex-grow: 1;
+      border: 1px solid black;
+     
+    }
+    
+        /* f */
+    .f  {
+      margin: 20px;
+      flex-grow: 1;
+      width: 100%;
+      border: 1px solid black;
+    
+      
+      
+    }
+     
+
+
+ 
+    
+
+    @media (min-width: 600px)   {
+      
+    
+    .two-columns  {
+      display: flex;
+      flex-direction: row;
+      min-height: 100vh;
+      width: 100%;
+      border: none;
+      
+      
+    }
+    .a  {
+      width: 95%;
+      min-height: 20vh;
+    }
+    .b  {
+      border: 1px solid black;
+    }
+    
+    }
+    .column-1   {
+      display: flex;
+      flex-wrap: wrap;
+      flex: 2;
+      flex-direction: column;   
+    }
+    .column-2   {
+      display: flex;
+      flex-direction: row;
+      flex: 1;
+      
+      
+    }
+      .three-boxes    {
+        display: flex;
+        flex-direction: row;
+        min-height: 50vh;
+        justify-content: center;
+        width: 92%;
+        border: none;
+       }
+      .b  {
+        width: 87%; 
+      }
+    }

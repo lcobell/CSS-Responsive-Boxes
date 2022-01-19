@@ -1,3 +1,64 @@
-body {
-  background: blanchedalmond;
+
+*  {
+border: 1px solid black;
+
+}
+
+/* container */
+.container  {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+
+
+/* a */
+
+.a  {
+  flex-grow: 2;
+  margin: 20px;
+  
+}
+
+/* b */
+
+.b  {
+  min-height: 60vh;
+  flex-grow: 5;
+  margin: 20px;
+}
+
+/* c */
+
+.c  {
+  flex-grow: 1;
+  margin: 20px;
+}
+
+/* @media */
+
+@media (min-width: 600px) {
+  .container  {
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+
+  .a  {
+      width: 100%;
+
+      }
+
+   .b  {
+        max-width: 80%;
+        max-height: 60%;
+   
+      }
+
+  .c  {
+        max-width: 20%;
+        min-height: 60%;
+    
+      }
 }
